@@ -1,0 +1,35 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    background-color: aqua;
+    color: gold;
+}
+
+#ketchbtn {
+    float: right;
+}
+
+p {
+    font-size: 25px;
+    color: rgb(154, 24, 24);
+    padding-top: 15px;
+}
+
+#canvasclear {
+    margin-top: 350px;
+}
+
+Canvas{
+    border: 5px dotted red;
+    border-radius: 30px;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes anime{
+    from{box-shadow:1px 1px 35px goldenrod}
+    to{box-shadow:1px 1px 35px rgb(47, 95, 255)}
+}
